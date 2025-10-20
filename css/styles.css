@@ -1,6 +1,6 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background-color: #ffffff;
 }
 
@@ -8,17 +8,7 @@ h1,
 h2,
 h3 {
   font-weight: 700;
-  color: #434455;
-}
-
-.section-title {
-  font-size: 36px;
-  line-height: 1.11111;
-}
-
-.list-title {
-  font-weight: 500;
-  font-size: 20px;
+  color: #2e2f42;
 }
 
 ul {
@@ -31,57 +21,126 @@ a {
 }
 
 .logo {
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
-}
-
-.web-header {
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: #4d5ae5;
 }
 
-.nav .nav-list {
+.span-studio {
+  color: #2e2f42;
+}
+
+.nav .nav-list .list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-header .nav-address {
+.nav .nav-list .list:hover {
+  color: #404bbf;
+}
+
+.nav .nav-list .list:focus {
+  color: #404bbf;
+}
+
+.nav-address .contact {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-address .contact:hover {
+  color: #404bbf;
+}
+
+.nav-address .contact:focus {
+  color: #404bbf;
+}
+
+.page-title {
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .section-one {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07143;
   color: #ffffff;
   background-color: #2e2f42;
 }
 
-.section-one .main-btn {
-  background-color: #4d5ae5;
-  color: #ffffff;
-  font-weight: 500;
+.main-btn {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
 
-p {
+.main-btn:hover {
+  background-color: #404bbf;
+}
+
+.main-btn:focus {
+  background-color: #404bbf;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-prph {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  letter-spacing: 0.02em;
+}
+
+.section-3 {
+  background-color: #f4f4fd;
+}
+
+.team-info {
+  background-color: #ffffff;
 }
 
 .footer {
   background-color: #2e2f42;
 }
 
-.footer-prph {
+.web-footer {
   color: #f4f4fd;
 }
 
-.web-footer {
+.footer-prph {
   color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
